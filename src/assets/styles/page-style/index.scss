@@ -1,0 +1,50 @@
+.tab {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 2px 5px;
+}
+a:hover {
+  background-color: #3eb370;
+  color: #fff;
+}
+}
+.el-color-dropdown{
+  font-size: 14px;
+}
+.el-color-dropdown__link-btn{
+  display: none;
+}
+.img-center-com{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice-tem{
+  display: flex;
+  .title{
+    display: inline-block;
+    width: 30px;
+  }
+  .choice-tem-con{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: -5px;
+  }
+  label{
+    display: flex;
+    margin-bottom: 10px;
+    input{
+      margin-right: 5px;
+    }
+  }
+}
+p{
+  margin: 0;
+}
